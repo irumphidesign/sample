@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: cairo, Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+body,
+html {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: black;
+	color: cornsilk;
+}
+.bg {
+	background-image: url(irum_desktop.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.irum {
+	color: #181818;
+	float: left;
+	margin: 10px 35px;
+	font-size: 50px;
+}
+/*.head {
+	width: 100%;
+	height: 39%;
+	background-color: #fff;
+}*/
+
+footer {
+	width: 100%;
+	height: 9%;
+	background-color: #181818;
+	padding: ;
+}
+footer p {
+	float: left;
+	padding: 1.2%;
+	margin-left: 10px;
+}
+/*.nav_icon {
+	display: inline;
+	padding: 10px;
+    margin: 10px;
+	float: right;
+	list-style-type: none;
+	border: 1px solid red;}*/
+.nav_social {
+	float: right;
+	margin-right: 10px;
+	padding: 1%;
+	width: 200px;
+}
+.nav_social ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+.nav_social ul li a {
+	color: white;
+	text-decoration: none;
+	transition: all .5s ease-out;
+}
+.fb:hover {
+	color: #3b5998;
+}
+.be:hover {
+	color: #053eff;
+}
+.wa:hover {
+	color: #128c7e;
+}
